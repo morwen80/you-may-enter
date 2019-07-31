@@ -4,7 +4,7 @@ const checkAge = () => {
 
    if(ageInput >= 18 && ageInput <= 90) {
     entryGranted.innerHTML = "You May Enter";
-   } else if(ageInput >= 13 && ageInput < 17) {
+  } else if(ageInput >= 13 && ageInput <= 17) {
      entryGranted.innerHTML = "You Shall Not Pass!"
    } else {
      entryGranted.innerHTML = "Shouldn't you be in bed by now?"
